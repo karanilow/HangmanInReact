@@ -1,0 +1,15 @@
+.hangman > .letter {
+    font-size: 2em;
+    flex: 1 1 calc(100% / 10 - 0.4em);
+    outline: 0.08em solid rgb(14, 211, 89);
+    margin: 0.2em;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.hangman > .letter.hasBeenClicked {
+    background: silver;
+    cursor: not-allowed;
+}
+
